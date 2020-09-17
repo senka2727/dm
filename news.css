@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width:1200px;
+    /* margin:0; */
+    margin: auto;
+}
+.navigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+nav {
+    width: 20%;
+    text-align: center;
+    border:5px solid #0A79BF;
+    border-top: none;
+    overflow:hidden ;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+    margin-top: 0;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    background-color: #0f5c8b;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    transition: all 0.2s;
+}
+#dance_mission {
+    background-color: #e4e4e4;
+}
+nav a:hover {
+    background-color: white;
+    color: #0084ff;
+}
+.news {
+    width: 70%;
+    margin: auto;
+    padding: 70px 0;
+}
+.news_body {
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    margin-bottom:20px;
+    border-radius: 5px;
+}
+.news_image {
+    width: 100%;
+}
+.news_image img {
+    /* height: 200px; */
+    width: 100%;
+}
+.news_txt {
+    font-size:20px ;
+}
+
+@media (max-width: 1518px) {
+    #dance_mission .container {
+        width: 1190px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 991px;
+    }
+
+    #dance_mission .container {
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 990px) {
+    .container {
+        width: 767px;
+    }
+}
+@media (max-width: 766px) {
+    .container {
+        width: 575px;
+    }
+    .news {
+        width:100%;
+    }
+}
+@media (max-width: 685px) {
+    nav {
+        width: 50%;
+    }
+}
+@media (max-width: 574px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dm.css">
+    <title>Данс-Миссия</title>
+    <script src="https://kit.fontawesome.com/62a275f891.js" crossorigin="anonymous"></script>
+    <script src="menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navigation">
+                <input type="checkbox" id="menu" class="switcher">
+                <label for="menu" class="open"><span class="fas fa-bars"></span></label>
+                <nav>
+                    <a href="news.html" class="link">Новости</a>
+                    <a href="#about" class="link">О нас</a>
+                    <a href="#rasp" class="link">Расписание занятий</a>
+                    <a href="#team" class="link">Команда</a>
+                    <a href="#contacts" class="link" for="menu">Контакты</a>
+                </nav>
+                <label for="menu" class="close"><span class="fas fa-times"></span></label>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <div class="about_all">
+                <div class="about_txt">
+                    <p class="cursive">Данс-Миссия основана в 1995 году Владимиром Леонидовичем Шульц,
+                        с 1998 года руководителем является Шульц Диана Викторовна.
+                        Мы выступаем в разных городах и странах на различных фестивалях и конкурсах,
+                        принимаем участие в концертах нашего города-Чита.</p>
+                    <h4>В нашем коллективе классификация по цветам:</h4>
+                    <hr>
+                    <p>
+                        <span>Желтые банданы</span> - дети от 3,5 лет до 5 лет (включительно)
+                    </p>
+                    <p>
+                        <span>Оранжевые банданы</span> - от 5 до 7 лет
+                    </p>
+                    <p>
+                        <span>Зеленые банданы</span> - от 8 до 11 лет
+                    </p>
+                    <p>
+                        <span>Фиолетовые банданы</span> - от 8 до 11 лет (второй уровень обучения)
+                    </p>
+                    <p>
+                        <span>Красные Д</span> - второй детский состав
+                    </p>
+                    <p>
+                        <span>Черные Д</span> - основной детский состав
+                    </p>
+                    <p>
+                        <span>Синие банданы</span> - от 12 лет (первые три месяца обучения)
+                    </p>
+                    <p>
+                        <span>Синие** банданы</span> -второй уровень для старших
+                    </p>
+                    <p>
+                        <span>Красные банданы</span> - третий уровень для старших
+                    </p>
+                    <p>
+                        <span>Красные ** банданы</span> - четвертый уровень для старших
+                    </p>
+                    <p>
+                        <span>Черные банданы</span> - основной старший состав
+                    </p>
+                    <p>
+                        <span>Белые банданы</span> - взрослые (джаз, контемпорари, бальные танцы)
+                    </p>
+                </div>
+                <img src="logo-dancemis.jpg" alt="logo" class="about_logo">
+            </div>
+        </div>
+    </section>
+    <section id="rasp">
+        <div class="container">
+            <div class="mobile_table">
+                <h2>Расписание занятий(лето 2020)</h2>
+                <div class="options">
+                    <h4>Выберите группу</h4>
+                    <select id="select_band">
+                        <option>Желтые банданы</option>
+                        <option>Оранжевые банданы</option>
+                        <option>Зеленые банданы</option>
+                        <option>Фиолетовые банданы</option>
+                        <option>Красные Д банданы</option>
+                        <option>Черные Д банданы</option>
+                        <option>Синие банданы</option>
+                        <option>Синие ** банданы</option>
+                        <option>Красные банданы</option>
+                        <option>Красные ** банданы</option>
+                        <option>Черные банданы</option>
+                        <option>Белые банданы</option>
+                        <option>Взрослые контемпорари</option>
+                    </select>
+                    <!-- <button>Показать</button> -->
+                </div>
+                <div class="group_all">
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Желтые банданы</li>
+                            <li class="day">Понедельник</li>
+                            <li>17:15</li>
+                            <li class="day">Пятница</li>
+                            <li>17:15</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Оранжевые банданы</li>
+                            <li class="day">Четверг</li>
+                            <li>17.20</li>
+                            <li class="day">Суббота</li>
+                            <li>15:00</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Зеленые банданы</li>
+                            <li class="day">Понедельник</li>
+                            <li>18.00</li>
+                            <li class="day">Пятница</li>
+                            <li>18:00</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Фиолетовые банданы</li>
+                            <li class="day">Вторник</li>
+                            <li>18:00 хип-хоп(+кр. д)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>19:00 танец</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Красные д</li>
+                            <li class="day">Вторник</li>
+                            <li>18:00 хип-хоп(+Фиолетовые)</li>
+                            <li>18:00 классика</li>
+                            <li class="day">Воскресенье</li>
+                            <li>18.00 джаз</li>
+                            <li>19:00 танец(+Фиолетовые)</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Черные д</li>
+                            <li class="day">Понедельник</li>
+                            <li>19.00 классика (+кр**(2см.))</li>
+                            <li>20.00 хип-хоп до 21.00</li>
+                            <li class="day">Среда</li>
+                            <li>18.10 танец</li>
+                            <li class="day">Четверг</li>
+                            <li>18.30 джаз</li>
+                            <li class="day">Суббота</li>
+                            <li>16.30 контемпорари</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Синие банданы</li>
+                            <li class="day">Пятница</li>
+                            <li>9.00 джаз (2 смена)</li>
+                            <li>15.30 джаз (1 смена)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>11.00 хип-хоп</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Синие **</li>
+                            <li class="day">Четверг</li>
+                            <li>19.30 хип-хоп (+ кр.)</li>
+                            <li class="day">Пятница</li>
+                            <li>19.00 танец (+кр.)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>9.30 джаз(+кр.)</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Красные банданы</li>
+                            <li class="day">Пятница</li>
+                            <li>19.00 танец(+синие **)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>11.00 хип-хоп</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Красные **</li>
+                            <li class="day">Понедельник</li>
+                            <li>19.00 классика кр**(2см.) (+черные Д) классика</li>
+                            <li class="day">Вторник</li>
+                            <li>15.30 танец черные+кр**(1cм)</li>
+                            <li>17.00 классика черные+кр**(1см)</li>
+                            <li class="day">Среда</li>
+                            <li>19.30 джаз</li>
+                            <li class="day">Суббота</li>
+                            <li>18.00 (+кр.) контемпорари</li>
+                            <li>19.30 актерское (красные, красные **, черные)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>12.30 хип-хоп</li>
+                            <li>14.00 танец</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Черные банданы</li>
+                            <li class="day">Вторник</li>
+                            <li>15.30 танец (+кр**(1cм))</li>
+                            <li>17.00 классика (+кр**(1см))</li>
+                            <li class="day">Среда</li>
+                            <li>15.30 джаз</li>
+                            <li>17.00 танец</li>
+                            <li class="day">Четверг</li>
+                            <li>15.00 танец</li>
+                            <li>15.45 хип-хоп</li>
+                            <li class="day">Суббота</li>
+                            <li>19.30 актерское (красные, красные **, черные)</li>
+                            <li class="day">Воскресенье</li>
+                            <li>15.00 черные контемпорари</li>
+                            <li>16.30 черные танец</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Белые банданы</li>
+                            <li class="day">Вторник</li>
+                            <li>20.00 белые джаз</li>
+                            <li class="day">Суббота</li>
+                            <li>14.00 белые джаз</li>
+                        </ul>
+                    </div>
+                    <div class="group">
+                        <ul>
+                            <li class="caption">Взрослые контемпорари</li>
+                            <li class="day">Пятница</li>
+                            <li>20.00</li>
+                            <li class="day">Воскресенье</li>
+                            <li>20.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <h2>Команда</h2>
+            <div class="team_all">
+                <figure>
+                    <img src="Diana.jpg">
+                    <figcaption>
+                        <span class="FIO">Диана Шульц</span>
+                        <span class="discription">руководитель театра танца Данс-Миссия</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="y2.jpg">
+                    <figcaption>
+                        <span class="FIO">Юлия Махновская</span>
+                        <span class="discription">педагог,хореограф</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="l2.jpg">
+                    <figcaption>
+                        <span class="FIO">Людмила Курбанова</span>
+                        <span class="discription">педагог,хореограф</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="t2.jpg">
+                    <figcaption>
+                        <span class="FIO">Александр Климов</span>
+                        <span class="discription">Заслуженный работник культуры Забайкальского края,
+                            педагог,хореограф</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="video">
+        <video controls="controls" autoplay poster="Diana.jpg">
+            <source src="LEYTE1365.mov">
+        </video>
+    </div> -->
+    <section id="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact">
+                <p><span class="fas fa-phone-alt"></span><a href="tel:+73022265964">+7(3022)26-59-64</a></p>
+                <p><span class="fab fa-vk"></span><a href="https://vk.com/club2183556" target="_blank">Группа
+                        Вконтакте</a></p>
+                <p><span class="fas fa-map-marker-alt"></span><a
+                        href="https://www.google.ru/maps/place/%D1%83%D0%BB.+%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,+39%D0%90,+4+%D1%8D%D1%82%D0%B0%D0%B6,+%D0%A7%D0%B8%D1%82%D0%B0,+%D0%97%D0%B0%D0%B1%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9,+672027/@52.0412826,113.5124914,18.46z/data=!4m5!3m4!1s0x5dca354d6d60f18f:0x6734bf19cf0380d9!8m2!3d52.0413629!4d113.513097?hl=ru"
+                        target="_blank">г. Чита, ул. Смоленская, д. 39А, 4 этаж</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
